@@ -1,0 +1,849 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A05FD266346D67D713D40A964BC1134 /* NSObject+YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 26EE7814517ED49F4952CD7CE8347B9F /* NSObject+YYModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12E855EA6F3A18DD436132AA7C9CA97C /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CE6CF5EAF24831CA1151486AB6C12A /* NSObject+YYModel.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		411AFC327DF36F151B03A9850B2D1883 /* FBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1BBB2CEDBF02C72BC61A0279893824 /* FBKVOController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		541A1FF2BE6FDED04FC8174BDA96F005 /* NSObject+FBKVOController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE34560E53619833F3EE8A0BD377F658 /* NSObject+FBKVOController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5690DB712CBBBB3AFCFEBEE64D14C376 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCEA5FC1855E7806D4531983305801DC /* Foundation.framework */; };
+		6149C2485B50DD6560F8FB61181B1F5D /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 158840BBB0AFC4992106D8E51FE1A112 /* SVProgressHUD-dummy.m */; };
+		616AED4094BA900B18E8BCAACEDBD1B5 /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D739FF51E11519269F85EB92354FACB /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		616CA9DE2AFBE073E27726D19E7CAB77 /* YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = C7DF61334BF84842B20BA85A6FFDBE0D /* YYModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6778CCA431C727FE484E29144A371080 /* YYModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EFD289E901E9D6AAAD855DE6EF00D10 /* YYModel-dummy.m */; };
+		7C41EED889C22795504A5F93BA578567 /* YYClassInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = C7A06660BC2DDEFD9F442162D48595AC /* YYClassInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E6A1633C92D2C200AD57401AD5A3C55 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A6F2976F6E9C2FE11FA19DECB026B3 /* CoreFoundation.framework */; };
+		800CF2831C1ED90541EBFA95DAAC3482 /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8752BA0CF91924EDC5A4246FDECBDC /* SVProgressAnimatedView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		803085E3005179C47AE8D40F3A3D0485 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = FBDBC3A2E87C2EB80379D22D58A3BE8E /* SVProgressHUD.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8A2C5CF2D28776EBB3B9EFF562CCCFC2 /* KVOController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C7608EEB33C19EAF7A95F2A7889D4B1 /* KVOController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F0272BB277349B21C1B9050641D0913 /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = DD53C7EB8B718626AE65C0C8EFCBC1D6 /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		938B4FD67F69A9FAA0C57CB7E8B31528 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF5BA25F8F7A1052EF652544024E8042 /* SVIndefiniteAnimatedView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		AC1EBB97EFD5398194CA26C31926E0BC /* NSObject+FBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = A00D873C3E05857EA040A1BB1D7C4620 /* NSObject+FBKVOController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B3A66CFE914CBCF774060C0BDA196439 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCEA5FC1855E7806D4531983305801DC /* Foundation.framework */; };
+		B96F28F4542BEA6BECFC603581AE0903 /* KVOController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B2F7866E1E83BB41E8B13C3A112BE2 /* KVOController-dummy.m */; };
+		C16250381E64914FBDE0087936A51CFF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCEA5FC1855E7806D4531983305801DC /* Foundation.framework */; };
+		CCE0F0C87F1DFE18F5248B2C561DE258 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCEA5FC1855E7806D4531983305801DC /* Foundation.framework */; };
+		D9684CD0F44B87521D990532457B36E0 /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = DA4FCC7350E1BB3461A654DD74589E09 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9844DFF0D19F07EFAFD55FB870BF651 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = ACDFE91F1F044081B2CF349B21093C8F /* SVRadialGradientLayer.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		DBEFDB9F08BE71BB51CB74A8C9A87CB9 /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 624247AAC03560B32E9467EB4DC2B93D /* YYClassInfo.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E36214EC4C10EDD0973BA2EE997D239A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3812AFE7F499933717902CA63F06C791 /* QuartzCore.framework */; };
+		EBD8BD6A4FFC9E7A30E85603FF0118D6 /* FBKVOController.h in Headers */ = {isa = PBXBuildFile; fileRef = D624E4914B753B564DD2FF6A0E6BA507 /* FBKVOController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F121D379D5C572C562F9C12FC5EBFCCC /* Pods-MapViewDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 588DC90AA76D0E093011EC78E89B4F93 /* Pods-MapViewDemo-dummy.m */; };
+		F8FC274B0226176D2DB4DEE9618B9E46 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = F0C840B7C6D7AE3D778B8158DEC2BAE6 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16B5EA2D6AD5D30ACAC47EB37F8DDEBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C2D3327264C1DB785EADD89D3242323;
+			remoteInfo = KVOController;
+		};
+		535AF9398194C32E1A5BDEE86A2F414E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A9B409F79DA568FE011A43FADA081F8;
+			remoteInfo = YYModel;
+		};
+		F1835330127EDEEB3C92AAE4DC595BF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A0D64A8AA8FE7B27A61151626AB2F85;
+			remoteInfo = SVProgressHUD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04BA5CFFB9AA36DFD068EC3DE0D62876 /* Pods-MapViewDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MapViewDemo-resources.sh"; sourceTree = "<group>"; };
+		09CAD696E8D3751FC4C59DC0949D017E /* Pods-MapViewDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MapViewDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0D739FF51E11519269F85EB92354FACB /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		158840BBB0AFC4992106D8E51FE1A112 /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		20A6F2976F6E9C2FE11FA19DECB026B3 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		26EE7814517ED49F4952CD7CE8347B9F /* NSObject+YYModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+YYModel.h"; path = "YYModel/NSObject+YYModel.h"; sourceTree = "<group>"; };
+		2716884AAABDEDB6637EDA835DFA77DF /* YYModel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYModel-prefix.pch"; sourceTree = "<group>"; };
+		2B8752BA0CF91924EDC5A4246FDECBDC /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		2DDFBBBAD6C0C5F72A519DF96F2F97D1 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		3812AFE7F499933717902CA63F06C791 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		3B08B87DE3EECE29A11E8388DF18FCF9 /* libPods-MapViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MapViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		588DC90AA76D0E093011EC78E89B4F93 /* Pods-MapViewDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MapViewDemo-dummy.m"; sourceTree = "<group>"; };
+		5EFD289E901E9D6AAAD855DE6EF00D10 /* YYModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYModel-dummy.m"; sourceTree = "<group>"; };
+		624247AAC03560B32E9467EB4DC2B93D /* YYClassInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYClassInfo.m; path = YYModel/YYClassInfo.m; sourceTree = "<group>"; };
+		6C7608EEB33C19EAF7A95F2A7889D4B1 /* KVOController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KVOController.h; path = FBKVOController/KVOController.h; sourceTree = "<group>"; };
+		70799A2CE006BCA9D79C30B5DF482593 /* libKVOController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKVOController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7675AC22960E81D4C57CAF0BD1BC5462 /* Pods-MapViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MapViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		89888562C73D7BF835618BC71B305717 /* Pods-MapViewDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MapViewDemo-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93CE6CF5EAF24831CA1151486AB6C12A /* NSObject+YYModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+YYModel.m"; path = "YYModel/NSObject+YYModel.m"; sourceTree = "<group>"; };
+		A00D873C3E05857EA040A1BB1D7C4620 /* NSObject+FBKVOController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+FBKVOController.m"; path = "FBKVOController/NSObject+FBKVOController.m"; sourceTree = "<group>"; };
+		A9A744C323573913066E64E9C099855C /* Pods-MapViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MapViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		ACDFE91F1F044081B2CF349B21093C8F /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		AE34560E53619833F3EE8A0BD377F658 /* NSObject+FBKVOController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+FBKVOController.h"; path = "FBKVOController/NSObject+FBKVOController.h"; sourceTree = "<group>"; };
+		B1BBB5CB32D7D53513AD36D1A2E73179 /* Pods-MapViewDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MapViewDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		B30FC20B87BF978B1A366DD97AD4061A /* YYModel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYModel.xcconfig; sourceTree = "<group>"; };
+		B87B69050806B9A472F28A50E7FFA46A /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
+		C122732BFF4B38FCE840FEC993E99003 /* KVOController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KVOController.xcconfig; sourceTree = "<group>"; };
+		C78D5A139F376F440EBD98C340480913 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		C7A06660BC2DDEFD9F442162D48595AC /* YYClassInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYClassInfo.h; path = YYModel/YYClassInfo.h; sourceTree = "<group>"; };
+		C7DF61334BF84842B20BA85A6FFDBE0D /* YYModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYModel.h; path = YYModel/YYModel.h; sourceTree = "<group>"; };
+		D624E4914B753B564DD2FF6A0E6BA507 /* FBKVOController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBKVOController.h; path = FBKVOController/FBKVOController.h; sourceTree = "<group>"; };
+		DA4FCC7350E1BB3461A654DD74589E09 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		DD53C7EB8B718626AE65C0C8EFCBC1D6 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		DF5BA25F8F7A1052EF652544024E8042 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		E3B58E38B7875159D37338D50950F1CE /* libYYModel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libYYModel.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5B2F7866E1E83BB41E8B13C3A112BE2 /* KVOController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KVOController-dummy.m"; sourceTree = "<group>"; };
+		EB1BBB2CEDBF02C72BC61A0279893824 /* FBKVOController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBKVOController.m; path = FBKVOController/FBKVOController.m; sourceTree = "<group>"; };
+		ED1E101B35DE1EC00DAED1CA7629AB15 /* KVOController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KVOController-prefix.pch"; sourceTree = "<group>"; };
+		F048D37F061BEF8F355DE32482CB9127 /* libSVProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSVProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0C840B7C6D7AE3D778B8158DEC2BAE6 /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		FBDBC3A2E87C2EB80379D22D58A3BE8E /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
+		FCEA5FC1855E7806D4531983305801DC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1187AC59FF4A37B9334B5D2A4C96BAEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3A66CFE914CBCF774060C0BDA196439 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BFE984082584EF2EC911D4567A72300 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E6A1633C92D2C200AD57401AD5A3C55 /* CoreFoundation.framework in Frameworks */,
+				C16250381E64914FBDE0087936A51CFF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81F189603487E032A6137E7B9011AD50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCE0F0C87F1DFE18F5248B2C561DE258 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCDB2F4B32BE100C5676222B8A64FBBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5690DB712CBBBB3AFCFEBEE64D14C376 /* Foundation.framework in Frameworks */,
+				E36214EC4C10EDD0973BA2EE997D239A /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				267D5729FFA46A48BCDE56CC7B0A1B3D /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		267D5729FFA46A48BCDE56CC7B0A1B3D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				20A6F2976F6E9C2FE11FA19DECB026B3 /* CoreFoundation.framework */,
+				FCEA5FC1855E7806D4531983305801DC /* Foundation.framework */,
+				3812AFE7F499933717902CA63F06C791 /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		3FC3B4B31770CCC28205D16332580E20 /* KVOController */ = {
+			isa = PBXGroup;
+			children = (
+				D624E4914B753B564DD2FF6A0E6BA507 /* FBKVOController.h */,
+				EB1BBB2CEDBF02C72BC61A0279893824 /* FBKVOController.m */,
+				6C7608EEB33C19EAF7A95F2A7889D4B1 /* KVOController.h */,
+				AE34560E53619833F3EE8A0BD377F658 /* NSObject+FBKVOController.h */,
+				A00D873C3E05857EA040A1BB1D7C4620 /* NSObject+FBKVOController.m */,
+				96B6C2A12F807FFF88BE5E81FF488F6C /* Support Files */,
+			);
+			path = KVOController;
+			sourceTree = "<group>";
+		};
+		52DC0066EC6908B730F6BFBD14D54C89 /* Pods-MapViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				09CAD696E8D3751FC4C59DC0949D017E /* Pods-MapViewDemo-acknowledgements.markdown */,
+				B1BBB5CB32D7D53513AD36D1A2E73179 /* Pods-MapViewDemo-acknowledgements.plist */,
+				588DC90AA76D0E093011EC78E89B4F93 /* Pods-MapViewDemo-dummy.m */,
+				89888562C73D7BF835618BC71B305717 /* Pods-MapViewDemo-frameworks.sh */,
+				04BA5CFFB9AA36DFD068EC3DE0D62876 /* Pods-MapViewDemo-resources.sh */,
+				7675AC22960E81D4C57CAF0BD1BC5462 /* Pods-MapViewDemo.debug.xcconfig */,
+				A9A744C323573913066E64E9C099855C /* Pods-MapViewDemo.release.xcconfig */,
+			);
+			name = "Pods-MapViewDemo";
+			path = "Target Support Files/Pods-MapViewDemo";
+			sourceTree = "<group>";
+		};
+		662C118BDFA80CACD6232266A5C4B33C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B30FC20B87BF978B1A366DD97AD4061A /* YYModel.xcconfig */,
+				5EFD289E901E9D6AAAD855DE6EF00D10 /* YYModel-dummy.m */,
+				2716884AAABDEDB6637EDA835DFA77DF /* YYModel-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/YYModel";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				BD4308B67442418BF74CB67BDE156C3B /* Pods */,
+				849BA8083715B00E971043CA5F598AAB /* Products */,
+				DCA344575268F123B777552AEFDD6E25 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		849BA8083715B00E971043CA5F598AAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70799A2CE006BCA9D79C30B5DF482593 /* libKVOController.a */,
+				3B08B87DE3EECE29A11E8388DF18FCF9 /* libPods-MapViewDemo.a */,
+				F048D37F061BEF8F355DE32482CB9127 /* libSVProgressHUD.a */,
+				E3B58E38B7875159D37338D50950F1CE /* libYYModel.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		932AB737F7A6A41DBCD64A7DD3D2EF07 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B87B69050806B9A472F28A50E7FFA46A /* SVProgressHUD.xcconfig */,
+				158840BBB0AFC4992106D8E51FE1A112 /* SVProgressHUD-dummy.m */,
+				2DDFBBBAD6C0C5F72A519DF96F2F97D1 /* SVProgressHUD-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SVProgressHUD";
+			sourceTree = "<group>";
+		};
+		96B6C2A12F807FFF88BE5E81FF488F6C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C122732BFF4B38FCE840FEC993E99003 /* KVOController.xcconfig */,
+				E5B2F7866E1E83BB41E8B13C3A112BE2 /* KVOController-dummy.m */,
+				ED1E101B35DE1EC00DAED1CA7629AB15 /* KVOController-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KVOController";
+			sourceTree = "<group>";
+		};
+		BD4308B67442418BF74CB67BDE156C3B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3FC3B4B31770CCC28205D16332580E20 /* KVOController */,
+				D8AE782C75BBD61A8A8ADFA773CF0C11 /* SVProgressHUD */,
+				FD9D93C5CE5A72976FDCC4E6F169D49C /* YYModel */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D6D6AB180A5732C49F74D84EAC5921C1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C78D5A139F376F440EBD98C340480913 /* SVProgressHUD.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D8AE782C75BBD61A8A8ADFA773CF0C11 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				DA4FCC7350E1BB3461A654DD74589E09 /* SVIndefiniteAnimatedView.h */,
+				DF5BA25F8F7A1052EF652544024E8042 /* SVIndefiniteAnimatedView.m */,
+				DD53C7EB8B718626AE65C0C8EFCBC1D6 /* SVProgressAnimatedView.h */,
+				2B8752BA0CF91924EDC5A4246FDECBDC /* SVProgressAnimatedView.m */,
+				F0C840B7C6D7AE3D778B8158DEC2BAE6 /* SVProgressHUD.h */,
+				FBDBC3A2E87C2EB80379D22D58A3BE8E /* SVProgressHUD.m */,
+				0D739FF51E11519269F85EB92354FACB /* SVRadialGradientLayer.h */,
+				ACDFE91F1F044081B2CF349B21093C8F /* SVRadialGradientLayer.m */,
+				D6D6AB180A5732C49F74D84EAC5921C1 /* Resources */,
+				932AB737F7A6A41DBCD64A7DD3D2EF07 /* Support Files */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		DCA344575268F123B777552AEFDD6E25 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				52DC0066EC6908B730F6BFBD14D54C89 /* Pods-MapViewDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FD9D93C5CE5A72976FDCC4E6F169D49C /* YYModel */ = {
+			isa = PBXGroup;
+			children = (
+				26EE7814517ED49F4952CD7CE8347B9F /* NSObject+YYModel.h */,
+				93CE6CF5EAF24831CA1151486AB6C12A /* NSObject+YYModel.m */,
+				C7A06660BC2DDEFD9F442162D48595AC /* YYClassInfo.h */,
+				624247AAC03560B32E9467EB4DC2B93D /* YYClassInfo.m */,
+				C7DF61334BF84842B20BA85A6FFDBE0D /* YYModel.h */,
+				662C118BDFA80CACD6232266A5C4B33C /* Support Files */,
+			);
+			path = YYModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0F94FB1EE5A279707654D0ECC5600282 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A05FD266346D67D713D40A964BC1134 /* NSObject+YYModel.h in Headers */,
+				7C41EED889C22795504A5F93BA578567 /* YYClassInfo.h in Headers */,
+				616CA9DE2AFBE073E27726D19E7CAB77 /* YYModel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		705326270EC703D9449E9030DCBCD57D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9684CD0F44B87521D990532457B36E0 /* SVIndefiniteAnimatedView.h in Headers */,
+				8F0272BB277349B21C1B9050641D0913 /* SVProgressAnimatedView.h in Headers */,
+				F8FC274B0226176D2DB4DEE9618B9E46 /* SVProgressHUD.h in Headers */,
+				616AED4094BA900B18E8BCAACEDBD1B5 /* SVRadialGradientLayer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADE7E2AC0F52AC82516B4935568D540E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD8BD6A4FFC9E7A30E85603FF0118D6 /* FBKVOController.h in Headers */,
+				8A2C5CF2D28776EBB3B9EFF562CCCFC2 /* KVOController.h in Headers */,
+				541A1FF2BE6FDED04FC8174BDA96F005 /* NSObject+FBKVOController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		12ACA02C3F336921FE8E1CE84C46DF72 /* Pods-MapViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE32D98737BD8E4953FF6E71CE17295A /* Build configuration list for PBXNativeTarget "Pods-MapViewDemo" */;
+			buildPhases = (
+				9989A35B5624FF13DA79FEF9DDBD8CAD /* Sources */,
+				81F189603487E032A6137E7B9011AD50 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF6917295B4943A71921FA80828822CB /* PBXTargetDependency */,
+				2F9359387C3D7415F7819939583E339C /* PBXTargetDependency */,
+				C69ADED2C9769C62BC9C9EB255D03455 /* PBXTargetDependency */,
+			);
+			name = "Pods-MapViewDemo";
+			productName = "Pods-MapViewDemo";
+			productReference = 3B08B87DE3EECE29A11E8388DF18FCF9 /* libPods-MapViewDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6A9B409F79DA568FE011A43FADA081F8 /* YYModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97FB71247E820F6A8D6453077F09EAE0 /* Build configuration list for PBXNativeTarget "YYModel" */;
+			buildPhases = (
+				04FE7DEB7881A1616B60CFEC9AFF6551 /* Sources */,
+				1BFE984082584EF2EC911D4567A72300 /* Frameworks */,
+				0F94FB1EE5A279707654D0ECC5600282 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YYModel;
+			productName = YYModel;
+			productReference = E3B58E38B7875159D37338D50950F1CE /* libYYModel.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9A0D64A8AA8FE7B27A61151626AB2F85 /* SVProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9C8597AAA1790D063448785046D76EA /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
+			buildPhases = (
+				8A3FD6D4FAAD27D703BFE4EF3CD2BB78 /* Sources */,
+				CCDB2F4B32BE100C5676222B8A64FBBE /* Frameworks */,
+				705326270EC703D9449E9030DCBCD57D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SVProgressHUD;
+			productName = SVProgressHUD;
+			productReference = F048D37F061BEF8F355DE32482CB9127 /* libSVProgressHUD.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9C2D3327264C1DB785EADD89D3242323 /* KVOController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63A5D756C612B03EA5ACB76CF9507AAA /* Build configuration list for PBXNativeTarget "KVOController" */;
+			buildPhases = (
+				A0D4BF94518C553D65D3E3E540F4BAF1 /* Sources */,
+				1187AC59FF4A37B9334B5D2A4C96BAEB /* Frameworks */,
+				ADE7E2AC0F52AC82516B4935568D540E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KVOController;
+			productName = KVOController;
+			productReference = 70799A2CE006BCA9D79C30B5DF482593 /* libKVOController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0920;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 849BA8083715B00E971043CA5F598AAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C2D3327264C1DB785EADD89D3242323 /* KVOController */,
+				12ACA02C3F336921FE8E1CE84C46DF72 /* Pods-MapViewDemo */,
+				9A0D64A8AA8FE7B27A61151626AB2F85 /* SVProgressHUD */,
+				6A9B409F79DA568FE011A43FADA081F8 /* YYModel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04FE7DEB7881A1616B60CFEC9AFF6551 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12E855EA6F3A18DD436132AA7C9CA97C /* NSObject+YYModel.m in Sources */,
+				DBEFDB9F08BE71BB51CB74A8C9A87CB9 /* YYClassInfo.m in Sources */,
+				6778CCA431C727FE484E29144A371080 /* YYModel-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A3FD6D4FAAD27D703BFE4EF3CD2BB78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				938B4FD67F69A9FAA0C57CB7E8B31528 /* SVIndefiniteAnimatedView.m in Sources */,
+				800CF2831C1ED90541EBFA95DAAC3482 /* SVProgressAnimatedView.m in Sources */,
+				6149C2485B50DD6560F8FB61181B1F5D /* SVProgressHUD-dummy.m in Sources */,
+				803085E3005179C47AE8D40F3A3D0485 /* SVProgressHUD.m in Sources */,
+				D9844DFF0D19F07EFAFD55FB870BF651 /* SVRadialGradientLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9989A35B5624FF13DA79FEF9DDBD8CAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F121D379D5C572C562F9C12FC5EBFCCC /* Pods-MapViewDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0D4BF94518C553D65D3E3E540F4BAF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				411AFC327DF36F151B03A9850B2D1883 /* FBKVOController.m in Sources */,
+				B96F28F4542BEA6BECFC603581AE0903 /* KVOController-dummy.m in Sources */,
+				AC1EBB97EFD5398194CA26C31926E0BC /* NSObject+FBKVOController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F9359387C3D7415F7819939583E339C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVProgressHUD;
+			target = 9A0D64A8AA8FE7B27A61151626AB2F85 /* SVProgressHUD */;
+			targetProxy = F1835330127EDEEB3C92AAE4DC595BF3 /* PBXContainerItemProxy */;
+		};
+		C69ADED2C9769C62BC9C9EB255D03455 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YYModel;
+			target = 6A9B409F79DA568FE011A43FADA081F8 /* YYModel */;
+			targetProxy = 535AF9398194C32E1A5BDEE86A2F414E /* PBXContainerItemProxy */;
+		};
+		EF6917295B4943A71921FA80828822CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KVOController;
+			target = 9C2D3327264C1DB785EADD89D3242323 /* KVOController */;
+			targetProxy = 16B5EA2D6AD5D30ACAC47EB37F8DDEBB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3E409A8F8E7D3ABB0861D55E96FBA9EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7675AC22960E81D4C57CAF0BD1BC5462 /* Pods-MapViewDemo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4E16579B704C01AB5F68FA09C586EC90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7E1877BF74F7D082C6142BB6299BCC55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9A744C323573913066E64E9C099855C /* Pods-MapViewDemo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7F5F7A01C9EDBCFBF3D5B93EB7BC55E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B87B69050806B9A472F28A50E7FFA46A /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AD437F2BFE4533E225F1C5E01F86CD7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCA0F23E29256E6E16C9E15F0394B643 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C122732BFF4B38FCE840FEC993E99003 /* KVOController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KVOController/KVOController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		CF62BB04155C820A55A7A23DE5F49248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B87B69050806B9A472F28A50E7FFA46A /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		CF6B2A03172AC9D74B6D8DC0372A420A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B30FC20B87BF978B1A366DD97AD4061A /* YYModel.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/YYModel/YYModel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E27CE0CFE4FA18F19F26E140FA09F183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B30FC20B87BF978B1A366DD97AD4061A /* YYModel.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/YYModel/YYModel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E93E9C53472A9DA0BEEB738926BF1FED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C122732BFF4B38FCE840FEC993E99003 /* KVOController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KVOController/KVOController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E16579B704C01AB5F68FA09C586EC90 /* Debug */,
+				AD437F2BFE4533E225F1C5E01F86CD7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63A5D756C612B03EA5ACB76CF9507AAA /* Build configuration list for PBXNativeTarget "KVOController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E93E9C53472A9DA0BEEB738926BF1FED /* Debug */,
+				BCA0F23E29256E6E16C9E15F0394B643 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97FB71247E820F6A8D6453077F09EAE0 /* Build configuration list for PBXNativeTarget "YYModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF6B2A03172AC9D74B6D8DC0372A420A /* Debug */,
+				E27CE0CFE4FA18F19F26E140FA09F183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE32D98737BD8E4953FF6E71CE17295A /* Build configuration list for PBXNativeTarget "Pods-MapViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E409A8F8E7D3ABB0861D55E96FBA9EB /* Debug */,
+				7E1877BF74F7D082C6142BB6299BCC55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9C8597AAA1790D063448785046D76EA /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F5F7A01C9EDBCFBF3D5B93EB7BC55E6 /* Debug */,
+				CF62BB04155C820A55A7A23DE5F49248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

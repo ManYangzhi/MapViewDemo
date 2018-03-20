@@ -1,0 +1,18 @@
+PODS:
+  - KVOController (1.2.0)
+  - SVProgressHUD (2.2.2)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - KVOController (~> 1.2.0)
+  - SVProgressHUD (~> 2.2.2)
+  - YYModel (~> 1.0.4)
+
+SPEC CHECKSUMS:
+  KVOController: d72ace34afea42468329623b3379ab3cd1d286b6
+  SVProgressHUD: 59b2d3dabacbd051576d21d32293ca7228dc18b0
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: 1a0c6a075b520b0cdb9b100c47a45e37d2e2ee23
+
+COCOAPODS: 1.2.1
